@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FORM validation using Regular expression</title>
+	<link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <script src="script.js"></script>
+</head>
+<body>
+	  
+
+
+  <div class="validform">
+
+  <form onsubmit="event.preventDefault(); validation();">
+    <div class="form-items">
+      <input id="uname" type= "text" placeholder="Username" class="input">
+      <i class="fa fa-check" class="ico" id="userlbl" style = "visibility: hidden"></i>
+    </div>
+    <div class="form-items">
+      <input type="password" class="input" placeholder="Password" id = "password" />
+      <i class="fa fa-check" class="ico" id="passlbl" style = "visibility: hidden"></i>
+
+    </div>
+	<div class="form-items">
+    <input type="text" placeholder="Mobile Number" id= "text1" class="input">
+    <i class="fa fa-check" class="ico" id="phonelbl" style = "visibility: hidden"></i>
+
+  </div>	<div class="form-items">
+    <input type="text" placeholder="Zipcode" id= "code" class="input">
+    <i class="fa fa-check" class="ico" id="ziplbl" style = "visibility: hidden"></i>
+
+  </div>
+
+<div class="form-items">
+  <input type="text" placeholder="email address" id= "email" class="input">
+  <i class="fa fa-check" class="ico" id="elbl" style = "visibility: hidden"></i>
+
+</div>
+<button class="btn" onclick="" type= "submit">Submit</button>  <i class="fas fa-arrow-right"></i>
+		
+	</form>
+  
+
+  
+  
+  <!-- <div class="social-icons">
+    <div class="facebook">
+      <i class="fab fa-facebook-f"></i>
+    </div>
+    <div class="twitter">
+      <i class="fab fa-twitter"></i>
+    </div>
+    <div class="google">
+      <i class="fab fa-google-plus-g"></i>
+    </div>
+  </div> -->
+  
+</div>
+
+
+</body>
+</html>
